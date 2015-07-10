@@ -96,5 +96,16 @@ module.exports = {
 			"result.XXBTZUSD.h.1" : "high",
 			"result.XXBTZUSD.v.1" : "volume"
 		}
+	},
+	"btcchina" : {
+		"tickerUrl" : "https://data.btcchina.com/data/ticker?market=btccny",
+		"jsonSchema" : {
+			"ticker.buy" : "bid",
+			"ticker.sell" : "ask",
+			"ticker.low" : "low",
+			"ticker.high" : "high",
+			"ticker.vol" : "volume",
+			"date" : "timestamp"
+		}
 	}
 }
