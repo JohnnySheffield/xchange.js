@@ -105,7 +105,7 @@ module.exports = {
 			"ticker.low" : "low",
 			"ticker.high" : "high",
 			"ticker.vol" : "volume",
-			"date" : "timestamp"
+			"ticker.date" : "timestamp"
 		}
 	}
 }
